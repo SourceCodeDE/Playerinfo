@@ -1,0 +1,7 @@
+name: Playerinfo
+main: de.playerinfo.main.Main
+author: SourceCodeDE
+version: 0.1
+
+commands:
+  playerinfo:
