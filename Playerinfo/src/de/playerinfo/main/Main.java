@@ -8,9 +8,14 @@ public class Main extends JavaPlugin {
 	
 	@Override
 	public void onEnable() {
-		System.out.println("[PlayerInfo] Plugin geladen.");
+		System.out.println("[PlayerInfo] Plugin aktiviert.");
 		
 		getCommand("playerinfo").setExecutor(new playerinfoCommand());
+	}
+
+	@Override
+	public void onDisable() {
+		System.out.println("[PlayerInfo] Plugin deaktiviert.");
 	}
 	
 }
